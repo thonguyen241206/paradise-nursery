@@ -1,0 +1,16 @@
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?q=80&w=1920');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.landing-title { font-size: 3.5rem; }
+.get-started-btn { padding: 12px 30px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+.navbar { display: flex; justify-content: space-between; background-color: #2e7d32; padding: 15px; color: white; }
+.plant-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+.plant-card { border: 1px solid #ccc; padding: 15px; text-align: center; }
+.plant-image { width: 100%; height: 150px; object-fit: cover; }
